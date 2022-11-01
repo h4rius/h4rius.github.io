@@ -1,3 +1,13 @@
 theme: jekyll-theme-minimal
 title: h4rius's homepage
 description: This is a test page.
+lsi: false
+safe: true
+source: [h4rius.github.io/h4rius.github.io]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
