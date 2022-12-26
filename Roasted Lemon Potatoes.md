@@ -20,3 +20,6 @@
 5. Cover tray with aluminum foil
 6. Cook for 2 hours
 7. Remove the foil and cook till potatoes reach a golden color
+
+
+##### Recipe author: Maria Kalara
