@@ -1,0 +1,17 @@
+#VBA Triage Cheat Sheet
+
+| Function | Description | Potential Risks |
+| --- | --- | --- |
+| Shell | Executes a command or script in a separate process | Can be used to execute malicious commands or scripts |
+| Wscript.Shell | Provides access to the Windows Script Host | Can be used to execute malicious scripts or commands |
+| CreateObject | Creates a new instance of a COM object | Can be used to instantiate malicious objects |
+| RegRead | Reads a value from the Windows registry | Can be used to obtain sensitive information |
+| RegWrite | Writes a value to the Windows registry | Can be used to modify system settings |
+| Net.WebClient | Provides access to web resources | Can be used to download malicious files |
+| WinHttp.WinHttpRequest | Provides access to HTTP and HTTPS resources | Can be used to download or upload malicious files or data |
+| FileSystemObject | Provides access to the file system | Can be used to read or write files, including sensitive data |
+| GetObject | Retrieves a reference to an object in a running application | Can be used to obtain access to sensitive information or manipulate running applications |
+| SendKeys | Sends keystrokes to the active window | Can be used to automate malicious actions or interact with other applications |
+| GetTickCount | Retrieves the number of milliseconds that have elapsed since the system was started | Can be used to time events or actions |
+| Sleep | Suspends execution for a specified number of milliseconds | Can be used to delay actions or evade detection |
+| SetWindowsHookEx | Installs a hook procedure to monitor system events | Can be used to monitor keystrokes or other sensitive events |
